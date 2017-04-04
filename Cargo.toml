@@ -4,11 +4,4 @@ version = "0.0.2"
 license = "Apache-2.0"
 authors = [ "Raph Levien <raph@google.com>" ]
 description = "A font renderer written (mostly) in pure, safe Rust"
-repository = "https://github.com/google/font-rs"
-build = "build.rs"
-
-[features]
-sse = []
-
-[build-dependencies]
-gcc = "0.3"
+repository = "https://github.com/phil-opp/font-rs"

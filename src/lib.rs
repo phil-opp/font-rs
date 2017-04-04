@@ -14,8 +14,18 @@
 
 //! A very high performance font renderer.
 
+#![feature(alloc, collections)]
+#![feature(core_float)]
+#![feature(core_intrinsics)]
+#![no_std]
+
+extern crate alloc;
+#[macro_use]
+extern crate collections;
+
 #[macro_use]
 pub mod macros;
 pub mod geom;
 pub mod raster;
 pub mod font;
+mod float_impls;
